@@ -158,6 +158,11 @@ header .hero-section .about button:hover {
 }
 
 /* recommend-product */
+.recommend-product__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .recommend-product {
     display: grid;
     grid-template-columns: repeat(4, auto);
@@ -425,13 +430,24 @@ header .hero-section .about button:hover {
     grid-template-rows: 640px;
 }
 
+.sorted-products__wrap {
+    width: 100%;
+    max-width: 1536px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .sorted-products .item {
     display: flex;
     flex-direction: column;
     gap: 16px;
     align-items: start;
     justify-content: center;
-    padding: 32px;
+    padding: 20px;
+    text-align: start;
 }
 
 .sorted-products .item:nth-child(3) {
